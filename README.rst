@@ -6,7 +6,7 @@ Features
 ========
 
 The package provides a starter pack with an interactive `Bokeh
-<https://bokeh.pydata.org>`_ plot embedded in an `Material Design
+<https://bokeh.pydata.org>`_ plot embedded in a `Material Design
 <https://material.io/>`_ Dashboard, which can send parameters from a flask form
 to Bokeh.
 
