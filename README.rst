@@ -14,6 +14,10 @@ to Bokeh.
    :scale: 53%
    :alt: Material Dashboard with Bokeh embedded in Flask
 
+.. note::
+   Please keep in mind that this is only a lightweight example of how Flask can
+   affect the rendering of the bokeh plot. The change in scale is out of scope.
+
 Quickstart
 ==========
 
