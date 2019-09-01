@@ -2,6 +2,13 @@
 Material Dashboard with Bokeh embedded in Flask
 ===============================================
 
+|Contributors| |License| |Docs|
+
+.. |Contributors| image:: https://img.shields.io/github/contributors/veit/flask-bokeh-dashboard.svg
+   :target: https://github.com/veit/flask-bokeh-dashboard/graphs/contributors
+.. |License| image:: https://img.shields.io/github/license/veit/flask-bokeh-dashboard.svg
+   :target: https://github.com/veit/flask-bokeh-dashboard/blob/master/LICENSE
+
 Features
 ========
 
