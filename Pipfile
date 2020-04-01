@@ -4,10 +4,6 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-
-# Pillow, Which is a requirement for bokeh, needs version ≥6.2.0.
-pillow = ">=6.2.0"
-
 bokeh = "*"
 pandas = "*"
 flask = "*"
@@ -16,4 +12,3 @@ gunicorn = "*"
 [dev-packages]
 
 [requires]
-
