@@ -92,10 +92,10 @@ Before you install Python packages, you must meet a few requirements.
    .. code-block:: console
 
     $ pipenv run gunicorn -w 1 main:app
-    [2019-08-21 10:14:54 +0200] [3750] [INFO] Starting gunicorn 19.9.0
-    [2019-08-21 10:14:54 +0200] [3750] [INFO] Listening at: http://127.0.0.1:8000 (3750)
-    [2019-08-21 10:14:54 +0200] [3750] [INFO] Using worker: sync
-    [2019-08-21 10:14:54 +0200] [3757] [INFO] Booting worker with pid: 3757
+    [2021-09-08 10:10:16 +0200] [55490] [INFO] Starting gunicorn 20.1.0
+    [2021-09-08 10:10:16 +0200] [55490] [INFO] Listening at: http://127.0.0.1:8000 (55490)
+    [2021-09-08 10:10:16 +0200] [55490] [INFO] Using worker: sync
+    [2021-09-08 10:10:16 +0200] [55498] [INFO] Booting worker with pid: 55498
 
    .. note::
       The ``w`` option can be used to specify the number of workers.
@@ -108,6 +108,5 @@ Pull requests
 =============
 
 If you have differences in your preferred setup, I encourage you to fork this
-to create your own version. I also accept pull requests on this, if they’re
+to create your own version. I also accept pull requests on this, if they are
 small, atomic, and if they make my own packaging experience better.
-
