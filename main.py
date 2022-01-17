@@ -23,7 +23,7 @@ from bokeh.sampledata.sea_surface_temperature import sea_surface_temperature
 if __name__ == '__main__':
     print('This script is intended to be run with gunicorn. e.g.')
     print()
-    print('    gunicorn -w 4 app:app')
+    print('    pipenv run gunicorn -w 4 main:app')
     print()
     print('will start the app on four processes')
     import sys
