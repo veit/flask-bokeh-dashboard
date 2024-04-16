@@ -8,4 +8,3 @@ attrs:
     Grid:
         grid_line_dash: [6, 4]
         grid_line_color: "#E0E0E0"
-

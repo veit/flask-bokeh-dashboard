@@ -10,5 +10,6 @@ flask = "*"
 gunicorn = "*"
 
 [dev-packages]
+pre-commit = "*"
 
 [requires]
