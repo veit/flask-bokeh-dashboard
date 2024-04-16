@@ -37,7 +37,7 @@ Before you install Python packages, you must meet a few requirements.
     $ python --version
     Python 3.7.3
 
-    Only Python >=3.6 is supported.
+   Only Python >=3.6 is supported.
 
 #. Make sure that `Pip
    <https://python-basics-tutorial.readthedocs.io/en/latest/libs/glossary.html#term-pip>`_
