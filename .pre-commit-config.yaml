@@ -10,6 +10,7 @@ repos:
       types: [file]
       files: \.(yml|yaml)$
     - id: check-added-large-files
+    - id: check-json
   - repo: https://github.com/pycqa/isort
     rev: 5.13.2
     hooks:
