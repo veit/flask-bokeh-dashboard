@@ -40,7 +40,7 @@ Before you install Python packages, you must meet a few requirements.
     Only Python >=3.6 is supported.
 
 #. Make sure that `Pip
-   <https://jupyter-tutorial.readthedocs.io/de/latest/reproduce/packaging/glossary.html#term-pip>`_
+   <https://python-basics-tutorial.readthedocs.io/en/latest/libs/glossary.html#term-pip>`_
    is installed:
 
    .. code-block:: console
