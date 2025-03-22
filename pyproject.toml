@@ -1,0 +1,42 @@
+[project]
+name = "flask-bokeh-dashboard"
+version = "0.2.0"
+authors = [
+  { name="Veit Schiele", email="veit@cusy.io" },
+]
+description = "Material Dashboard with Bokeh embedded in Flask"
+readme = "README.rst"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "bokeh",
+    "bokeh_sampledata",
+    "flask",
+    "gunicorn",
+    "pandas",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/veit/flask-bokeh-dashboard"
+"Bug Tracker" = "https://github.com/veit/flask-bokeh-dashboard/issues"
+
+[build-system]
+requires = ["hatchling", "hatch-vcs"]
+build-backend = "hatchling.build"
+
+[tool.hatch.version]
+source = "vcs"
+raw-options = { local_scheme = "no-local-version" }
+
+[tool.hatch.build.targets.wheel]
+packages = ["main"]
