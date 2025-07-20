@@ -21,7 +21,7 @@ dependencies = [
     "pandas",
 ]
 
-[project.optional-dependencies]
+[dependency-groups]
 dev = [
     "pre-commit",
 ]
